@@ -1,0 +1,31 @@
+.DS_Store
+**/*.swp
+
+run/
+autotest/
+dist/
+
+# Gradle
+build/
+.gradle/
+classes/
+*.class
+
+# IntelliJ Files
+.idea/
+*.iml
+*.ipr
+*.iws
+/logs/
+
+# Eclipse Files
+.classpath
+.project
+.settings/
+baritone_Client.launch
+
+# Copyright Files
+!/.idea/copyright/Baritone.xml
+!/.idea/copyright/profiles_settings.xml
+
+.vscode/launch.json
